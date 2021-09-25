@@ -15,7 +15,6 @@ function ContactList({ contacts, onRemove }) {
           <Span>{name}: </Span>
           <Span>{number} </Span>
           <Button type="button" onClick={() => onRemove(id)}>
-            {' '}
             Delete contact
           </Button>
         </ContactItems>
