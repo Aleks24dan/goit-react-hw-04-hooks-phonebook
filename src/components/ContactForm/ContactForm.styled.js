@@ -8,21 +8,23 @@ text-align:centr;
 `
 
 export const LabelInput = styled.label`
+display: flex;
 font-weight: 700;
 font-size: 17px;
 margin:0 auto;
 flex-direction: column;
-display: flex;
+
 width: 300px;
 justify-content: center;
 text-align:centr;
 `
 
 export const Input = styled.input`
-margin-right: ;
 padding: 5px;
 border-radius: 5px;
-box-shadow: 1px 2px 3px rgb(85, 42, 85);
+box-shadow: 1px 2px 3px rgb(85 42 85);
+display: block;
+margin: 0 auto;
 `
 
 export const Button = styled.button`

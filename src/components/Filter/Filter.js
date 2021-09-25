@@ -3,8 +3,10 @@ import { Input, LabelInput } from '../ContactForm/ContactForm.styled';
 
 const Filter = ({ value, onChange, onBlur }) => (
   <label>
-    <LabelInput>Find contact by name</LabelInput>
-    <Input type="text" value={value} onChange={onChange} onBlur={onBlur} />
+    <LabelInput>Find contact by name
+      <Input type="text" value={value} onChange={onChange} onBlur={onBlur} />
+    </LabelInput>
+    
   </label>
 );
 
